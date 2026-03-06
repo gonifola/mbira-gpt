@@ -1,52 +1,371 @@
 {
+  "_meta": {
+    "source": "mbira.online free archive (public pages)",
+    "scraped": "2026-03-05",
+    "count": 20,
+    "notes": "Tuning and progression data extracted from lesson page descriptions. Premium subscribers have access to full notation/tab. Free pages provide tuning, progression, artist, and structural metadata."
+  },
   "songs": [
     {
-      "id": "nhemamusasa_standard",
-      "name": "Nhemamusasa",
-      "alt_names": ["Nhemamusassa"],
-      "tuning": "nyamaropa",
-      "chord_progression": 4,
-      "corpus_priority": "tier1",
-      "sources": ["mbira.online", "nonesuch_1977", "chiwoniso", "mbira_spirit"]
+      "id": "forward_kwenda_tadzungaira",
+      "title": "Tadzungaira",
+      "artist": "forward_kwenda",
+      "source_url": "https://www.mbira.online/archive/forward-kwenda-tadzungaira",
+      "tunings": ["nyamaropa", "nemakonde"],
+      "progressions": [4, 6],
+      "tuning_progression_map": {
+        "nyamaropa": 4,
+        "nemakonde": 6
+      },
+      "beat_structure": "6 beats per chord (atypical — standard is 4)",
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 4,
+      "notes": "One of top 2 most searched mbira songs. Forward demonstrates how the same 'flavour' is expressed across different tunings — Prog 4 on Nyamaropa, Prog 6 on Gandanga/Nemakonde family. Often called 'a prayer to end all human suffering'. Filmed at Great Zimbabwe.",
+      "tags": ["ceremonial", "popular", "improvisation", "two-tuning-demo"]
     },
     {
-      "id": "nhemamusasa_yepasi",
-      "name": "Nhemamusasa Yepasi / Yekutanga",
-      "alt_names": ["Nhemamusasa Yekutanga"],
-      "tuning": "nyamaropa",
-      "chord_progression": 5,
-      "notes": "Forward Kwenda's preferred name. More ancient version. Progression 5 is rarer.",
-      "corpus_priority": "tier1",
-      "sources": ["mbira.online (Muda Magaya)", "forward_kwenda"]
+      "id": "muda_magaya_nhemamusasa",
+      "title": "Nhemamusasa",
+      "artist": "muda_magaya",
+      "source_url": "https://www.mbira.online/archive/muda-magaya-nhemamusasa",
+      "tunings": ["nyamaropa"],
+      "progressions": [4],
+      "tuning_progression_map": {
+        "nyamaropa": 4
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "beginner",
+      "video_count": 6,
+      "notes": "Six videos including ensemble performance with Kudakwashe Sikalela and hosho accompaniment. One of the top 2 most-searched mbira songs. Standard Progression 4 on Nyamaropa.",
+      "tags": ["popular", "beginner-friendly", "ensemble", "hosho"]
     },
     {
-      "id": "tadzungaira_nyamaropa",
-      "name": "Tadzungaira",
-      "alt_names": ["Todzungaira"],
-      "tuning": "nyamaropa",
-      "chord_progression": 4,
-      "beat_duration": 6,
-      "notes": "6 beats per chord instead of standard 4. Prayer to end all human suffering.",
-      "corpus_priority": "tier1",
-      "sources": ["mbira.online (Forward Kwenda)", "nyamasvisva"]
+      "id": "muda_magaya_nhemamusasa_yepasi",
+      "title": "Nhemamusasa Yekutanga / Yepasi",
+      "artist": "muda_magaya",
+      "source_url": "https://www.mbira.online/archive/muda-magaya-nhemamusasa-yepasi-yekutanga",
+      "tunings": ["nyamaropa"],
+      "progressions": [5],
+      "tuning_progression_map": {
+        "nyamaropa": 5
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 2,
+      "notes": "Forward Kwenda's name 'Ye-Pasi' means 'Of-The-Ground' (ancestors in the ground). Uses rare Progression 5 — argued to be a more ancient version than the standard Nhemamusasa (Prog 4). All roots and fifths are present for every chord in Prog 5.",
+      "tags": ["ancient-variant", "progression-5", "rare", "ancestor-connection"]
     },
     {
-      "id": "tadzungaira_nemakonde",
-      "name": "Tadzungaira",
-      "tuning": "nemakonde",
-      "chord_progression": 6,
-      "notes": "Same song, different tuning family = different progression. Root feel shifts to note 6.",
-      "corpus_priority": "tier1",
-      "sources": ["mbira.online (Forward Kwenda)"]
+      "id": "tute_chigamba_bangidza",
+      "title": "Bangiza / Bangidza",
+      "artist": "tute_chigamba",
+      "source_url": "https://www.mbira.online/archive/tute-chigamba-bangidza",
+      "tunings": ["nyamaropa", "gandanga"],
+      "progressions": [7],
+      "tuning_progression_map": {
+        "nyamaropa": 7,
+        "gandanga": 7
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 8,
+      "notes": "Tute plays both Nyamaropa and Gandanga tuning versions. Both map to Progression 7. 4 videos per tuning (basic + improvisation for each voice).",
+      "tags": ["two-tuning-demo", "progression-7", "tute_chigamba"]
     },
     {
-      "id": "bangidza",
-      "name": "Bangidza",
-      "alt_names": ["Bangiza"],
-      "tuning_variants": ["nyamaropa", "gandanga", "nemakonde"],
-      "corpus_priority": "tier1",
-      "notes": "Multiple tuning versions. Rich tutorial coverage. Ideal for pattern logic training.",
-      "sources": ["mbira.online (Muda Magaya, Tute Chigamba, Leonard Chiyanike, Samson Bvure)"]
+      "id": "muda_magaya_bangidza",
+      "title": "Bangidza / Bangiza",
+      "artist": "muda_magaya",
+      "source_url": "https://www.mbira.online/archive/muda-magaya-bangiza-bangidza",
+      "tunings": ["nyamaropa"],
+      "progressions": [7],
+      "tuning_progression_map": {
+        "nyamaropa": 7
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 5,
+      "notes": "Muda and Kudakwashe Sikalela. Same song as Tute Chigamba's Bangidza, both on Progression 7 — good cross-artist comparison.",
+      "tags": ["cross-artist", "progression-7", "ensemble"]
+    },
+    {
+      "id": "tute_chigamba_chigwaya",
+      "title": "Chigwaya",
+      "artist": "tute_chigamba",
+      "source_url": "https://www.mbira.online/archive/tute-chigamba-chigwaya",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 4,
+      "notes": "Progression not stated in free page. Nyamaropa tuning confirmed.",
+      "tags": ["tute_chigamba", "nyamaropa"]
+    },
+    {
+      "id": "nyamasvisva_chigwaya",
+      "title": "Chigwaya",
+      "artist": "nyamasvisva",
+      "source_url": "https://www.mbira.online/archive/nyamasvisva-chigwaya",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "beginner",
+      "video_count": 2,
+      "notes": "Nyamasvisva version of Chigwaya. Good cross-artist pair with Tute Chigamba's version.",
+      "tags": ["cross-artist", "nyamasvisva", "nyamaropa"]
+    },
+    {
+      "id": "muda_magaya_nhimutimu",
+      "title": "Nhimutimu",
+      "artist": "muda_magaya",
+      "source_url": "https://www.mbira.online/archive/muda-magaya-nhimutimu",
+      "tunings": ["nyamaropa"],
+      "progressions": [1],
+      "tuning_progression_map": {
+        "nyamaropa": 1
+      },
+      "voices": ["solo_combined"],
+      "difficulty": "advanced",
+      "video_count": 4,
+      "notes": "Muda's 'solo style' — combines kushaura and kutsinhira into one part. Also demonstrates how Nhimutimu and Mahororo share the same 'footprint' (same progression, different song). Key insight: songs can share a progression while being distinct pieces.",
+      "tags": ["solo-style", "progression-1", "footprint-concept", "mahororo-pair"]
+    },
+    {
+      "id": "tute_chigamba_mbavarira",
+      "title": "Mbavarira",
+      "artist": "tute_chigamba",
+      "source_url": "https://www.mbira.online/archive/tute-chigamba-mbavarira",
+      "tunings": ["gandanga", "nyamaropa"],
+      "progressions": [2],
+      "tuning_progression_map": {
+        "gandanga": 2,
+        "nyamaropa": 2
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 8,
+      "notes": "First four videos in Gandanga, next four in Nyamaropa — same progression (2) in both tunings. Good illustration of tuning as a modal shift, not a transposition.",
+      "tags": ["two-tuning-demo", "progression-2", "tuning-as-modal-shift"]
+    },
+    {
+      "id": "william_chitauro_chakwi",
+      "title": "Chakwi",
+      "artist": "william_chitauro",
+      "source_url": "https://www.mbira.online/archive/william-chitauro-chakwi",
+      "tunings": ["dindinyongwe"],
+      "progressions": [2],
+      "tuning_progression_map": {
+        "dindinyongwe": 2
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 4,
+      "notes": "Dindinyongwe tuning — a Gandanga/Mavembe family tuning closest to G# phrygian. Same Progression 2 as Tute's Mbavarira, different tuning. 2 kushaura styles + 2 kutsinhira styles.",
+      "tags": ["dindinyongwe", "gandanga-family", "progression-2", "rare-tuning"]
+    },
+    {
+      "id": "tute_chigamba_chipindura",
+      "title": "Chipindura",
+      "artist": "tute_chigamba",
+      "source_url": "https://www.mbira.online/archive/tute-chigamba-chipindura",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 4,
+      "notes": "Progression not stated in free page. Nyamaropa tuning confirmed.",
+      "tags": ["tute_chigamba", "nyamaropa"]
+    },
+    {
+      "id": "tute_chigamba_shanje_chandide",
+      "title": "Shanje / Chandide",
+      "artist": "tute_chigamba",
+      "source_url": "https://www.mbira.online/archive/tute-chigamba-shanje-chandide",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 4,
+      "notes": "Shanje and Chandide are alternate names for the same song. Progression not stated in free page. Nyamaropa tuning confirmed.",
+      "tags": ["tute_chigamba", "nyamaropa", "alternate-names"]
+    },
+    {
+      "id": "tute_chigamba_chaminuka_ndi_mambo",
+      "title": "Chaminuka ndi Mambo",
+      "artist": "tute_chigamba",
+      "source_url": "https://www.mbira.online/archive/tute-chigamba-chaminuka-ndi-mambo",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 4,
+      "notes": "Ceremonial song. Same title taught by both Tute Chigamba and Nyamasvisva — cross-artist comparison available.",
+      "tags": ["ceremonial", "tute_chigamba", "nyamaropa", "cross-artist"]
+    },
+    {
+      "id": "nyamasvisva_chaminuka_ndi_mambo",
+      "title": "Chaminuka ndi Mambo",
+      "artist": "nyamasvisva",
+      "source_url": "https://www.mbira.online/archive/nyamasvisva-chaminuka-ndi-mambo",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "beginner",
+      "video_count": 2,
+      "notes": "Nyamasvisva version of Chaminuka ndi Mambo. Cross-artist pair with Tute Chigamba version.",
+      "tags": ["ceremonial", "nyamasvisva", "cross-artist"]
+    },
+    {
+      "id": "leonard_chiyanike_nyuchi",
+      "title": "Nyuchi",
+      "artist": "leonard_chiyanike",
+      "source_url": "https://www.mbira.online/archive/leonard-chiyanike-nyuchi",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura"],
+      "difficulty": "beginner",
+      "video_count": 1,
+      "notes": "Single kushaura video. Progression not stated. Unique artist in corpus — Leonard Chiyanike.",
+      "tags": ["leonard_chiyanike", "kushaura-only"]
+    },
+    {
+      "id": "nyamasvisva_dande",
+      "title": "Dande",
+      "artist": "nyamasvisva",
+      "source_url": "https://www.mbira.online/archive/nyamasvisva-dande",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "beginner",
+      "video_count": 2,
+      "notes": "Nyamasvisva version of Dande. Cross-artist pair with Muda Magaya version (Prog 6).",
+      "tags": ["nyamasvisva", "cross-artist", "dande"]
+    },
+    {
+      "id": "muda_magaya_dande",
+      "title": "Dande",
+      "artist": "muda_magaya",
+      "source_url": "https://www.mbira.online/archive/muda-magaya-dande",
+      "tunings": ["nyamaropa"],
+      "progressions": [6],
+      "tuning_progression_map": {
+        "nyamaropa": 6
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 5,
+      "notes": "Muda and Kudakwashe Sikalela. Progression 6 on Nyamaropa — notable because Prog 6 is typically the 'root feel' for Gandanga/Mavembe tunings, but Muda uses it on Nyamaropa for Dande.",
+      "tags": ["progression-6", "muda_magaya", "ensemble", "cross-artist"]
+    },
+    {
+      "id": "tute_chigamba_shumba_yemukwasha",
+      "title": "Shumba Yemukwasha / Yangwasha",
+      "artist": "tute_chigamba",
+      "source_url": "https://www.mbira.online/archive/tute-chigamba-shumba-yemukwasha-yangwasha",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "intermediate",
+      "video_count": 4,
+      "notes": "Alternate title: Yangwasha. Shumba = lion. Nyamaropa tuning confirmed. Progression not stated in free page.",
+      "tags": ["tute_chigamba", "nyamaropa", "alternate-names"]
+    },
+    {
+      "id": "nyamasvisva_nyamaropa_song",
+      "title": "Nyamaropa (song)",
+      "artist": "nyamasvisva",
+      "source_url": "https://www.mbira.online/archive/nyamasvisva-nyamaropa",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "beginner",
+      "video_count": 3,
+      "notes": "The song named after the tuning — distinct from the tuning itself. 1 kushaura + 2 kutsinhira variations.",
+      "tags": ["nyamasvisva", "song-named-after-tuning"]
+    },
+    {
+      "id": "nyamasvisva_karimugomba",
+      "title": "Karimugomba",
+      "artist": "nyamasvisva",
+      "source_url": "https://www.mbira.online/archive/nyamasvisva-karimugomba",
+      "tunings": ["nyamaropa"],
+      "progressions": [null],
+      "tuning_progression_map": {
+        "nyamaropa": null
+      },
+      "voices": ["kushaura", "kutsinhira"],
+      "difficulty": "beginner",
+      "video_count": 5,
+      "notes": "2 kushaura + 3 kutsinhira variations. Nyamasvisva is known for playing many different progressions for the same song.",
+      "tags": ["nyamasvisva", "nyamaropa", "multi-variation"]
     }
+  ],
+  "song_index_by_progression": {
+    "1": ["muda_magaya_nhimutimu"],
+    "2": ["tute_chigamba_mbavarira", "william_chitauro_chakwi"],
+    "3": [],
+    "4": ["forward_kwenda_tadzungaira", "muda_magaya_nhemamusasa"],
+    "5": ["muda_magaya_nhemamusasa_yepasi"],
+    "6": ["forward_kwenda_tadzungaira", "muda_magaya_dande"],
+    "7": ["tute_chigamba_bangidza", "muda_magaya_bangidza"]
+  },
+  "song_index_by_tuning": {
+    "nyamaropa": ["forward_kwenda_tadzungaira", "muda_magaya_nhemamusasa", "muda_magaya_nhemamusasa_yepasi", "tute_chigamba_bangidza", "muda_magaya_bangidza", "tute_chigamba_chigwaya", "nyamasvisva_chigwaya", "muda_magaya_nhimutimu", "tute_chigamba_mbavarira", "tute_chigamba_chipindura", "tute_chigamba_shanje_chandide", "tute_chigamba_chaminuka_ndi_mambo", "nyamasvisva_chaminuka_ndi_mambo", "leonard_chiyanike_nyuchi", "nyamasvisva_dande", "muda_magaya_dande", "tute_chigamba_shumba_yemukwasha", "nyamasvisva_nyamaropa_song", "nyamasvisva_karimugomba"],
+    "gandanga": ["tute_chigamba_bangidza", "tute_chigamba_mbavarira"],
+    "nemakonde": ["forward_kwenda_tadzungaira"],
+    "dindinyongwe": ["william_chitauro_chakwi"]
+  },
+  "song_index_by_artist": {
+    "forward_kwenda": ["forward_kwenda_tadzungaira"],
+    "muda_magaya": ["muda_magaya_nhemamusasa", "muda_magaya_nhemamusasa_yepasi", "muda_magaya_bangidza", "muda_magaya_nhimutimu", "muda_magaya_dande"],
+    "tute_chigamba": ["tute_chigamba_bangidza", "tute_chigamba_chigwaya", "tute_chigamba_mbavarira", "tute_chigamba_chipindura", "tute_chigamba_shanje_chandide", "tute_chigamba_chaminuka_ndi_mambo", "tute_chigamba_shumba_yemukwasha"],
+    "nyamasvisva": ["nyamasvisva_chigwaya", "nyamasvisva_chaminuka_ndi_mambo", "nyamasvisva_dande", "nyamasvisva_nyamaropa_song", "nyamasvisva_karimugomba"],
+    "william_chitauro": ["william_chitauro_chakwi"],
+    "leonard_chiyanike": ["leonard_chiyanike_nyuchi"]
+  },
+  "cross_artist_songs": [
+    { "title": "Bangidza", "artists": ["tute_chigamba", "muda_magaya"], "shared_progression": 7 },
+    { "title": "Chigwaya", "artists": ["tute_chigamba", "nyamasvisva"], "shared_progression": null },
+    { "title": "Chaminuka ndi Mambo", "artists": ["tute_chigamba", "nyamasvisva"], "shared_progression": null },
+    { "title": "Dande", "artists": ["nyamasvisva", "muda_magaya"], "shared_progression": null }
+  ],
+  "key_theory_insights": [
+    "Tadzungaira: same song, Prog 4 on Nyamaropa vs Prog 6 on Nemakonde/Gandanga — demonstrates tuning as modal shift",
+    "Nhimutimu and Mahororo share the same 'footprint' (Prog 1) — different songs on the same progression",
+    "Nhemamusasa Yepasi uses rare Prog 5, argued to be more ancient than standard Nhemamusasa (Prog 4)",
+    "Mbavarira uses Prog 2 in both Gandanga and Nyamaropa — same progression, different tuning",
+    "Tadzungaira uses 6 beats per chord instead of standard 4 — structural exception",
+    "Dande on Nyamaropa uses Prog 6 — typically the Gandanga 'root feel' progression"
   ]
 }
