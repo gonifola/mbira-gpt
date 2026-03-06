@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "description": "Mbira GPT corpus item schema",
+  "fields": {
+    "id": { "type": "string", "description": "Unique identifier" },
+    "source_type": {
+      "type": "enum",
+      "values": ["youtube_video", "spotify_track", "tablature", "lesson_transcript", "voice_memo", "liner_note", "web_article"]
+    },
+    "artist": { "type": "string" },
+    "piece": { "type": "string", "description": "Song/composition name" },
+    "tuning_system": {
+      "type": "enum",
+      "values": ["nyamaropa", "nyamaropa_high", "gandanga", "mavembe", "nemakonde", "samaita", "other"]
+    },
+    "tuning_stack": {
+      "type": "array",
+      "items": "tuning_system",
+      "description": "Multiple tunings active simultaneously (orchestra mode)"
+    },
+    "chord_progression": {
+      "type": "integer",
+      "range": [1, 7],
+      "description": "Mbira chord progression number (1-7)"
+    },
+    "register_focus": {
+      "type": "enum",
+      "values": ["kushaura", "kutsinhira", "both"]
+    },
+    "variation_type": {
+      "type": "enum",
+      "values": ["base_note_substitution", "octave_shift", "rhythmic_displacement", "ornament", "highline", "cross_rhythm", "other"]
+    },
+    "performance_context": {
+      "type": "enum",
+      "values": ["bira_ceremony", "concert", "lesson", "studio", "informal"]
+    },
+    "difficulty_level": {
+      "type": "enum",
+      "values": ["beginner", "intermediate", "advanced"]
+    },
+    "expert_annotation": {
+      "type": "boolean",
+      "description": "Whether William has added first-person notes"
+    },
+    "pattern_logic_note": {
+      "type": "string",
+      "description": "Why the variation works - the teaching explanation"
+    },
+    "source_url": { "type": "string" },
+    "source_timestamp": {
+      "type": "string",
+      "description": "For videos: timestamp (MM:SS) where pattern appears"
+    }
+  }
+}

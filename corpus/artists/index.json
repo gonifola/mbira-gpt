@@ -1,0 +1,74 @@
+{
+  "artists": [
+    {
+      "id": "forward_kwenda",
+      "name": "Forward Kwenda",
+      "origin": "Zimbabwe",
+      "style_notes": "Meditative, precise, deep theory. Primary artist for mbiramagic.com. Prefers 'Yepasi' naming for ancient Nhemamusasa version. Plays Tadzungaira in multiple tunings.",
+      "youtube": null,
+      "spotify": null,
+      "tunings_documented": ["nyamaropa", "nemakonde"],
+      "progressions_documented": [4, 6]
+    },
+    {
+      "id": "musekiwa_chingodza",
+      "name": "Musekiwa Chingodza",
+      "origin": "Zimbabwe",
+      "born": 1970,
+      "style_notes": "Lyrical, marimba-influenced, fluid. Active collaborator (Third Coast Percussion, 2025).",
+      "youtube": "https://www.youtube.com/channel/UCkZ2B6uzKVc07-jrGTKbgEg",
+      "spotify": "https://open.spotify.com/artist/71h7VkF40lAIpho6YoXqKV",
+      "tunings_documented": ["nyamaropa"]
+    },
+    {
+      "id": "garikayi_tirikoti",
+      "name": "Garikayi Tirikoti",
+      "origin": "Zimbabwe",
+      "style_notes": "Rhythmically dense. Instrument maker. Inventor of the mbira orchestra concept (multiple tunings stacked simultaneously).",
+      "youtube": "https://www.youtube.com/channel/UC04_5_vTAJVep34VTJaiqww",
+      "spotify": "https://open.spotify.com/artist/00A7IgRpCsbAgIs6swHh8R",
+      "tunings_documented": ["nyamaropa", "gandanga", "mavembe"],
+      "orchestra_mode": true
+    },
+    {
+      "id": "nyamasvisva",
+      "name": "Nyamasvisva (Mawungira eNharira)",
+      "origin": "Zimbabwe",
+      "style_notes": "Ceremonial, multi-progression, traditional ensemble lead. Plays Tadzungaira in many different progressions.",
+      "youtube": "https://www.youtube.com/user/mawungiraenharira",
+      "spotify": "https://open.spotify.com/artist/7I9ehQwa2QqFp3uDP1KMNM"
+    },
+    {
+      "id": "chris_berry",
+      "name": "Chris Berry",
+      "origin": "USA (California)",
+      "style_notes": "Grammy winner. Fusion/cross-cultural. Groove-forward. Most accessible entry point for non-traditional listeners.",
+      "youtube": "https://www.youtube.com/@Chrisberrybrand",
+      "spotify": "https://open.spotify.com/artist/1YzLZRj0WPycwO47div0b3",
+      "youtube_video_count": 173
+    },
+    {
+      "id": "muda_magaya",
+      "name": "Mudavanhu Magaya",
+      "origin": "Zimbabwe",
+      "style_notes": "Primary mbira.online instructor. Deep bangidza lessons. Multi-tuning. Nhemamusasa Yepasi/Yekutanga specialist."
+    },
+    {
+      "id": "tute_chigamba",
+      "name": "Tute Chigamba",
+      "origin": "Zimbabwe",
+      "style_notes": "Traditional base. mbira.online instructor. Bangidza in Gandanga tuning."
+    },
+    {
+      "id": "mbira_dzenharira",
+      "name": "Mbira DzeNharira",
+      "origin": "Zimbabwe (Norton)",
+      "founded": 1987,
+      "founder": "Tendayi Gahamadze",
+      "style_notes": "Most commercially documented ensemble. 11 CDs, 3 DVDs. Most-streamed mbira artist (6.3K monthly Spotify listeners).",
+      "youtube": "https://www.youtube.com/channel/UCwqqUR2K7gVjxkt3Sp2oXtA",
+      "spotify": "https://open.spotify.com/artist/1SyGy6XVuc7Pf1PVZtgNsc",
+      "top_track_streams": 206913
+    }
+  ]
+}

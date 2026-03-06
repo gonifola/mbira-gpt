@@ -1,0 +1,52 @@
+{
+  "songs": [
+    {
+      "id": "nhemamusasa_standard",
+      "name": "Nhemamusasa",
+      "alt_names": ["Nhemamusassa"],
+      "tuning": "nyamaropa",
+      "chord_progression": 4,
+      "corpus_priority": "tier1",
+      "sources": ["mbira.online", "nonesuch_1977", "chiwoniso", "mbira_spirit"]
+    },
+    {
+      "id": "nhemamusasa_yepasi",
+      "name": "Nhemamusasa Yepasi / Yekutanga",
+      "alt_names": ["Nhemamusasa Yekutanga"],
+      "tuning": "nyamaropa",
+      "chord_progression": 5,
+      "notes": "Forward Kwenda's preferred name. More ancient version. Progression 5 is rarer.",
+      "corpus_priority": "tier1",
+      "sources": ["mbira.online (Muda Magaya)", "forward_kwenda"]
+    },
+    {
+      "id": "tadzungaira_nyamaropa",
+      "name": "Tadzungaira",
+      "alt_names": ["Todzungaira"],
+      "tuning": "nyamaropa",
+      "chord_progression": 4,
+      "beat_duration": 6,
+      "notes": "6 beats per chord instead of standard 4. Prayer to end all human suffering.",
+      "corpus_priority": "tier1",
+      "sources": ["mbira.online (Forward Kwenda)", "nyamasvisva"]
+    },
+    {
+      "id": "tadzungaira_nemakonde",
+      "name": "Tadzungaira",
+      "tuning": "nemakonde",
+      "chord_progression": 6,
+      "notes": "Same song, different tuning family = different progression. Root feel shifts to note 6.",
+      "corpus_priority": "tier1",
+      "sources": ["mbira.online (Forward Kwenda)"]
+    },
+    {
+      "id": "bangidza",
+      "name": "Bangidza",
+      "alt_names": ["Bangiza"],
+      "tuning_variants": ["nyamaropa", "gandanga", "nemakonde"],
+      "corpus_priority": "tier1",
+      "notes": "Multiple tuning versions. Rich tutorial coverage. Ideal for pattern logic training.",
+      "sources": ["mbira.online (Muda Magaya, Tute Chigamba, Leonard Chiyanike, Samson Bvure)"]
+    }
+  ]
+}
