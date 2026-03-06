@@ -1,0 +1,176 @@
+{
+  "_meta": {
+    "purpose": "Vocal tonal research corpus. Goal: understand where each master's voice sits relative to active mbira scale degrees at each chord position. This becomes the vocal constraint model — same architecture as the note constraint engine, but for voice.",
+    "research_method": "Pitch-detect vocal line against active mbira notes per beat. Build dataset: [artist, tuning, progression, chord_position, beat] → vocal pitch interval from root.",
+    "status": "catalogue complete — pitch analysis pending (requires audio isolation per video)",
+    "scraped": "2026-03-05"
+  },
+  "living_masters": [
+    {
+      "id": "chris_berry",
+      "name": "Chris Berry",
+      "ensemble": "Panjea",
+      "nationality": "American (Zimbabwe-trained)",
+      "vocal_style": "Shona ceremonial singing absorbed over years of all-night bira ceremonies in Zimbabwe. Deep tonal alignment with mbira scale — not ornamental singing over the top, but voice as another tine. Platinum album sales in Zimbabwe and Mozambique.",
+      "tonal_character": "Mid-to-high register, gravitates toward scale degrees 4 and 5 on Nyamaropa. Strong melodic resolution on root. Call-and-response emphasis.",
+      "sources": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=t8_CarrZRK0", "title": "Mbira Playing Chris Berry", "note": "Solo mbira + voice, clearest voice-mbira isolation. PRIMARY analysis candidate." },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=9NLr-aFj30Y", "title": "Chris Berry and Panjea Promo Video", "note": "Ensemble performance" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=FgIYnl3R6qQ", "title": "Chris Berry Performance #2 - Live (Relix)", "note": "Concert footage" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=ks1cTHeEzvk", "title": "From Traditional Shona Music to Electric Mbira: A Demo", "note": "Demonstrates traditional-to-electric continuum. Good for tonal analysis." },
+        { "type": "channel", "url": "https://www.youtube.com/@Chrisberrybrand", "title": "Chris Berry YouTube Channel", "note": "173 videos total" }
+      ],
+      "analysis_priority": "HIGH — clearest voice-mbira relationship in contemporary playing; extensive documented repertoire"
+    },
+    {
+      "id": "nyamasvisva",
+      "name": "Nyamasvisva",
+      "ensemble": "Mawungira eNharira",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Founder, lead singer, composer, arranger of Mawungira eNharira. Living custodian of mbira dzavadzimu tradition. Plays many different progressions for same songs — highly variable harmonic approach.",
+      "tonal_character": "Traditional Shona ceremonial vocal placement. Closer to mbira scale root-fifth vocabulary than Chris Berry's more melodic approach.",
+      "sources": [
+        { "type": "channel", "url": "https://www.youtube.com/user/mawungiraenharira", "title": "Nyamasvisva / Mawungira eNharira YouTube channel", "note": "Primary channel" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=10LFnHTQFQo", "title": "Taireva Mbira Tutorial with Nyamasvisva", "note": "mbira.online lesson — voice and mbira clearly paired. ANALYSIS CANDIDATE." },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=n3Nhew-WMvI", "title": "Acoustic Houz Ep 3 featuring Nyamasvisva", "note": "Intimate setting, good audio" }
+      ],
+      "analysis_priority": "HIGH — traditional root, plays across all progressions, already 5 songs in our song index"
+    },
+    {
+      "id": "muda_magaya",
+      "name": "Muda Magaya",
+      "ensemble": "with Kudakwashe Sikalela",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Deep traditional ceremonial singing. Known for technical and cultural commentary alongside playing. Pairs voice with kutsinhira interlocking patterns.",
+      "tonal_character": "Gravitates toward strong chord roots. Voice functions as third part in the kushaura-kutsinhira-voice triangle.",
+      "sources": [
+        { "type": "site", "url": "https://www.mbira.online/archive?tag=Muda%20Magaya", "title": "Muda Magaya lessons on mbira.online", "note": "5 song lesson pages with vocal context. Source for analysis." }
+      ],
+      "analysis_priority": "HIGH — 5 songs in index, vocal context documented in lesson pages"
+    },
+    {
+      "id": "forward_kwenda",
+      "name": "Forward Kwenda",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Haunting, ceremonial. Associated with Tadzungaira vocal tradition — 'prayer to end all human suffering'. Demonstrates tuning shifts (Nyamaropa/Nemakonde) while maintaining vocal relationship to progression.",
+      "tonal_character": "Voice tracks the 'root feel' note of the active tuning/progression. On Nyamaropa Prog 4 — voice gravitates to degree 4. On Nemakonde Prog 6 — voice gravitates to degree 6. Key insight for tonal model.",
+      "sources": [
+        { "type": "site", "url": "https://www.mbira.online/archive/forward-kwenda-tadzungaira", "title": "Forward Kwenda: Tadzungaira lesson page", "note": "Vocal context described. Filmed at Great Zimbabwe." }
+      ],
+      "analysis_priority": "MEDIUM — vocal context documented but fewer video sources currently catalogued"
+    },
+    {
+      "id": "tute_chigamba",
+      "name": "Tute Chigamba",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Traditional ceremonial. 7 songs in our index. Known for playing Nyamaropa and Gandanga tunings in same session — demonstrates vocal adaptation across tuning shifts.",
+      "tonal_character": "Voice adapts to tuning shift — good comparative data source for Nyamaropa vs Gandanga vocal placement.",
+      "sources": [
+        { "type": "site", "url": "https://www.mbira.online/archive?tag=Tute%20Chigamba", "title": "Tute Chigamba lessons on mbira.online", "note": "7 song lesson pages" }
+      ],
+      "analysis_priority": "MEDIUM"
+    },
+    {
+      "id": "fradreck_mujuru",
+      "name": "Fradreck Mujuru",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Son of Ephat Mujuru. Has developed mbira vocals in recent years — adds 'heartfelt singing to complex intertwined melodies'. Bridge between Ephat's instrumental tradition and vocal tradition.",
+      "tonal_character": "Emerging — being developed as distinct voice. Good bridge data between deceased master (Ephat) and living practice.",
+      "sources": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=PYvDJJfepv0", "title": "Fradreck Mujuru - MBIRA for Healing", "note": "Vocal + mbira" },
+        { "type": "site", "url": "https://mbira.org/what-is-mbira/mbira-musicians/fradreck-mujuru/", "title": "Fradreck Mujuru - MBIRA.org profile" }
+      ],
+      "analysis_priority": "MEDIUM"
+    }
+  ],
+  "deceased_masters": [
+    {
+      "id": "stella_chiweshe",
+      "name": "Stella Chiweshe",
+      "dates": "1946–2023",
+      "title": "Queen of Mbira",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Broke gender barrier — mbira was male-only instrument before her. Internationally celebrated voice + mbira dzavadzimu. Taught at Global Music Academy Berlin. Distinctive high soprano over traditional patterns.",
+      "tonal_character": "Higher register than male masters. Voice creates strong contrast with low mbira tines — best illustration of treble vocal over bass mbira. Ideal for register dial research.",
+      "sources": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=ntxjaU0HVmk", "title": "Stella Chiweshe - Live at Ufa Fabik (digitally restored)", "note": "HIGHEST PRIORITY — restored archival, clearest voice+mbira separation. PRIMARY analysis candidate." },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=TS_DN_R-w7c", "title": "Stella Chiweshe - live @ Club Gretchen 2020", "note": "Voice + mbira + marimba + hosho + electric bass" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=C3HsQF-ZaIQ", "title": "Stella Chiweshe - Chipindura", "note": "Also in our song index (Tute Chigamba version). Cross-artist comparison possible." },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=XR_f5QlN91U", "title": "Stella Chiweshe - Mbira (Berlin)", "note": "Teaching context" },
+        { "type": "channel", "url": "https://www.youtube.com/user/StellaChiweshe", "title": "Stella Chiweshe YouTube channel" }
+      ],
+      "analysis_priority": "HIGHEST — most documented deceased master, YouTube archive significant, tonal character strongly distinct"
+    },
+    {
+      "id": "ephat_mujuru",
+      "name": "Ephat Mujuru",
+      "dates": "1950–2001",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Primarily instrumental master — voice provided by Uncle Mude on recordings ('one of the greatest mbira singers of the 20th century'). The Mujuru ensemble vocal tradition is the key data here.",
+      "tonal_character": "Uncle Mude's vocals on Mbavaira represent the deep traditional vocalist-as-instrument approach. Voice blends into mbira texture rather than floating above it.",
+      "sources": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=e4_tcD9slao", "title": "Ephat Mujuru & Spirit of the People - Mbavaira (Full Album, 1983)", "note": "Uncle Mude vocals. HIGHEST PRIORITY for deceased-master vocal analysis." },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=D79mL0svt1A", "title": "Ephat Mujuru - Mbavaira (Awesome Tapes reissue, 84K views)", "note": "High-quality reissue" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=Q4F91DiwuCQ", "title": "Ephat Mujuru - Journey of the Spirit (2002)", "note": "Includes Nyamaropa, Dande — songs already in our index" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=DzHj2CgjaEI", "title": "Mbira Music and Stories by Ephat Mujuru", "note": "Documentary with storytelling context" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=1MLhdIzZm7g", "title": "The Technique of the Mbira Dza Vadzimu (Villon Films)", "note": "21-min technique film — HIGHEST PRIORITY for instrumental analysis" },
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=LOx8mmUUNnE", "title": "An Old Cult Centre, Mbira dza Vadzimu, Muchatera Mujuru, Ephat Mujuru (Villon Films)", "note": "52-min documentary — ceremonial context" },
+        { "type": "bandcamp", "url": "https://ephatmujuru.bandcamp.com/", "title": "Ephat Mujuru - Mbavaira (Bandcamp)", "note": "High quality audio available" }
+      ],
+      "analysis_priority": "HIGHEST — 1983 recordings are pre-electric, Uncle Mude vocal + mbira dzavadzimu is clearest traditional vocal-instrument relationship in archive"
+    },
+    {
+      "id": "uncle_mude",
+      "name": "Uncle Mude",
+      "dates": "unknown–unknown",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Ephat Mujuru's vocalist. Described as 'one of the greatest mbira singers of the 20th century'. Voice blends into mbira texture — the ideal model of voice-as-tine.",
+      "tonal_character": "Deep traditional. Voice functions as an additional mbira part rather than a melody over accompaniment. This is the target model — voice constrained by the same harmonic system as the tines.",
+      "sources": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=e4_tcD9slao", "title": "Ephat Mujuru - Mbavaira (Full Album)", "note": "Primary source for Uncle Mude vocal analysis" }
+      ],
+      "analysis_priority": "HIGHEST — closest documented example of voice constrained by mbira harmony rather than floating over it"
+    },
+    {
+      "id": "sekuru_gora",
+      "name": "Sekuru Gora",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Pre-independence field recording era. One of the oldest documented mbira vocal traditions.",
+      "sources": [
+        { "type": "archive", "url": "https://www.smithsonianfolkways.org", "title": "Smithsonian Folkways — search 'mbira Gora'", "note": "Pre-1980 field recordings" }
+      ],
+      "analysis_priority": "MEDIUM — oldest tradition, hardest to access"
+    },
+    {
+      "id": "muchatera_mujuru",
+      "name": "Muchatera Mujuru",
+      "nationality": "Zimbabwean",
+      "vocal_style": "Ephat Mujuru's father. Pre-independence ceremonial master. Featured in Villon Films documentary alongside Ephat.",
+      "sources": [
+        { "type": "youtube", "url": "https://www.youtube.com/watch?v=LOx8mmUUNnE", "title": "An Old Cult Centre - Muchatera & Ephat Mujuru (Villon Films, 52 min)", "note": "Ceremonial context, multi-generational" }
+      ],
+      "analysis_priority": "HIGH — multi-generational comparison with Ephat and Fradreck possible"
+    }
+  ],
+  "tonal_hypothesis": {
+    "core_principle": "Mbira vocal placement is constrained by the same harmonic system as tine selection. Voice is not melody over accompaniment — it is an additional tine, subject to the same valid-note rules per chord position.",
+    "forward_kwenda_key_insight": "Voice tracks the 'root feel' note of the active tuning/progression. Nyamaropa Prog 4 → voice gravitates to degree 4. Nemakonde Prog 6 → voice gravitates to degree 6. The root feel shifts with tuning, and so does the vocal center.",
+    "uncle_mude_key_insight": "Voice-as-tine paradigm. Voice blends into texture rather than floating above. Target model for the AI vocal engine.",
+    "stella_chiweshe_key_insight": "Higher register voice over lower tines — demonstrates how the vocal sits in treble register while mbira occupies bass/mid. Maps to register dial (0=bass tines dominant, 1=treble+voice dominant).",
+    "chris_berry_key_insight": "Voice absorbed through all-night ceremony immersion, not theory study. Calls the valid note choices without naming them. This is the empirical confirmation that the constraint system is real — even a non-Shona player internalizes it through deep listening."
+  },
+  "analysis_pipeline": {
+    "step_1": "Audio source selection — prioritize videos with clearest voice+mbira separation (flagged above as 'ANALYSIS CANDIDATE' or 'PRIMARY')",
+    "step_2": "Pitch detection — use librosa (Python) or CREPE model to extract vocal F0 contour per time segment",
+    "step_3": "Mbira note mapping — identify active chord position in 48-beat cycle at each time segment (use song index + progression map)",
+    "step_4": "Interval calculation — compute vocal pitch as interval above identified mbira root note at each position",
+    "step_5": "Dataset construction — [artist, tuning, progression, chord_position, beat_in_chord] → [vocal_interval_from_root]",
+    "step_6": "Pattern extraction — identify preferred intervals per chord position per artist → vocal constraint table",
+    "step_7": "Model integration — vocal constraint table feeds into audioEngine.js as a 7th voice channel, constrained same as tine channels"
+  },
+  "hugh_tracey_archive": {
+    "note": "Hugh Tracey field recordings 1950s-70s are the deepest pre-electric archive. Some on Smithsonian Folkways (free streaming). Search: 'Hugh Tracey mbira Zimbabwe'. These recordings have rawer voice+instrument separation than studio recordings — best ground truth.",
+    "smithsonian_folkways_url": "https://folkways.si.edu",
+    "search_terms": ["mbira Zimbabwe", "Shona mbira", "mbira dzavadzimu Tracey"]
+  }
+}
